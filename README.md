@@ -16,10 +16,6 @@ On Ubuntu:
 On arch:
 
     yay -S libcurl-openssl-1.0
-On macOS, you can install it using Homebrew:
-
-    brew install curl
-
 
 ## Install
 
