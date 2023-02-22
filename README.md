@@ -15,7 +15,7 @@ On Ubuntu:
     sudo apt-get install libcurl4-openssl-dev
 On arch:
 
-    yay -S libcurl-openssl-1.0
+    sudo pacman -S curl openssl
 
 ## Install
 
