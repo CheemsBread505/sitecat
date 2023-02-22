@@ -24,7 +24,7 @@ To install SiteCat, you will need to compile it first by running the following c
     git clone https://github.com/CheemsBread505/sitecat.git
     cd sitecat
     sudo make
-    sudo cp sitecat /usr/bin
+    sudo cp sitecat /usr/bin/
 ## Usage
 After you have successfully compiled the program, you can use it by running the following command:
 
