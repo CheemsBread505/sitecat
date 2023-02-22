@@ -9,6 +9,7 @@ If you have any suggestions, feature requests, or bug reports, please feel free 
 ## Dependencies
 
 SiteCat depends on the `curl` library, which can be installed using your system's package manager.
+
 On Ubuntu:
 
     sudo apt-get install libcurl4-openssl-dev
