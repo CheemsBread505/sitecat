@@ -1,2 +1,45 @@
-# sitecat
-Cat but with the added function to read files from a url.
+# SiteCat
+
+SiteCat is a simple program that allows you to view the contents of a file either from a local file path or from a URL. It supports a list of predefined file extensions, and you can add more if you want.
+
+## Dependencies
+
+SiteCat depends on the `curl` library, which can be installed using your system's package manager.
+On Ubuntu:
+
+    sudo apt-get install libcurl4-openssl-dev
+On arch:
+
+    yay -S libcurl-openssl-1.0
+On macOS, you can install it using Homebrew:
+
+    brew install curl
+
+
+## Install
+
+To install SiteCat, you will need to compile it first by running the following command in your terminal:
+
+    git clone https://github.com/CheemsBread505/sitecat.git
+    cd sitecat
+    sudo make
+    sudo cp sitecat /usr/bin
+## Usage
+After you have successfully compiled the program, you can use it by running the following command:
+
+    sitecat <url or file path>
+For example, if you want to view the contents of a local file called `example.txt`, you can run the following command:
+
+    sitecat example.txt
+If you want to view the contents of a file from a URL, you can run the following command:
+
+    sitecat https://example.com/example.txt
+## Allowed file extensions
+
+SiteCat has a list of allowed file extensions that it can read. These are the file extensions that are currently supported:
+
+    .txt, .md, .go, .js, .rust, .css, .c, .cpp, .json, .config, .html
+
+## License
+
+SiteCat is released under the GNU General Public License v3.0; See the [LICENSE](https://github.com/CheemsBread505/sitecat/blob/main/LICENSE) file for more details.
