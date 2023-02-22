@@ -1,6 +1,10 @@
 # SiteCat
 
-SiteCat is a simple program that allows you to view the contents of a file either from a local file path or from a URL. It supports a list of predefined file extensions, and you can add more if you want.
+SiteCat is a simple command-line utility for viewing the contents of files either from a local file path or from a URL. It is a lightweight and flexible alternative to more complex tools, with a focus on simplicity and ease of use.
+
+SiteCat is written in C++ and depends on the curl library for downloading files from URLs. It is open source and released under the GPL-3.0 license.
+
+If you have any suggestions, feature requests, or bug reports, please feel free to open an issue or a pull request. I welcome your feedback and contributions!
 
 ## Dependencies
 
