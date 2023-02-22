@@ -1,2 +1,2 @@
 # sitecat
-Cat but for reading files off the web
+Cat but with the added function to read files from a url.
