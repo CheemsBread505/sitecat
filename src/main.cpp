@@ -9,7 +9,7 @@
 //To compile run "g++ -o sitecat src/main.cpp -lcurl".
 const std::string allowedExtensions[] = {".txt", ".TXT", ".md", ".MD", 
 ".go", ".GO", ".js", ".JS", ".rust", ".RUST", ".css", ".CSS", ".c", ".C", ".cpp", ".CPP",
-".json", ".JSON", ".config", ".CONFIG", "LICENSE", ".html", ".HTML"};
+".json", ".JSON", ".config", ".CONFIG", "LICENSE", ".html", ".HTML", ".xml", ".XML"};
 
 int main(int argc, char* argv[]) {
     if (argc < 2) {
